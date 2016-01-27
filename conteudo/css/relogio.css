@@ -1,0 +1,1443 @@
+/* Ângulos para horas */
+/*--*/
+.hora_1 {
+  -webkit-animation-name: hora_1;
+  animation-name: hora_1;
+}
+@-webkit-keyframes hora_1
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(30deg);}
+}
+@-moz-keyframes hora_1
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(30deg);}
+}
+@-ms-keyframes hora_1
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(30deg);}
+}
+/*--*/
+.hora_2 {
+  -webkit-animation-name: hora_2;
+  animation-name: hora_2;
+}
+@-webkit-keyframes hora_2
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(60deg);}
+}
+@-moz-keyframes hora_2
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(60deg);}
+}
+@-ms-keyframes hora_2
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(60deg);}
+}
+/*--*/
+.hora_3 {
+  -webkit-animation-name: hora_3;
+  animation-name: hora_3;
+}
+@-webkit-keyframes hora_3
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(91deg);}
+}
+@-moz-keyframes hora_3
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(91deg);}
+}
+@-ms-keyframes hora_3
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(91deg);}
+}
+/*--*/
+.hora_4 {
+  -webkit-animation-name: hora_4;
+  animation-name: hora_4;
+}
+@-webkit-keyframes hora_4
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(120deg);}
+}
+@-moz-keyframes hora_4
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(120deg);}
+}
+@-ms-keyframes hora_4
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(120deg);}
+}
+/*--*/
+.hora_5 {
+  -webkit-animation-name: hora_5;
+  animation-name: hora_5;
+}
+@-webkit-keyframes hora_5
+{
+    from{-webkit-transform:rotate(0deg);  top:-5px;}
+    to{-webkit-transform:rotate(151deg);  top:-5px;}
+}
+@-moz-keyframes hora_5
+{
+    from{-webkit-transform:rotate(0deg);  top:-5px;}
+    to{-webkit-transform:rotate(151deg);  top:-5px;}
+}
+@-ms-keyframes hora_5
+{
+    from{-webkit-transform:rotate(0deg);  top:-5px;}
+    to{-webkit-transform:rotate(151deg);  top:-5px;}
+}
+/*--*/
+.hora_6 {
+  -webkit-animation-name: hora_6;
+  animation-name: hora_6;
+}
+@-webkit-keyframes hora_6
+{
+    from{-webkit-transform:rotate(0deg); top:-5px;}
+    to{-webkit-transform:rotate(180deg); top:-5px;}
+}
+@-moz-keyframes hora_6
+{
+    from{-webkit-transform:rotate(0deg); top:-5px;}
+    to{-webkit-transform:rotate(180deg); top:-5px;}
+}
+@-ms-keyframes hora_6
+{
+    from{-webkit-transform:rotate(0deg); top:-5px;}
+    to{-webkit-transform:rotate(180deg); top:-5px;}
+}
+/*--*/
+.hora_7 {
+  -webkit-animation-name: hora_7;
+  animation-name: hora_7;
+}
+@-webkit-keyframes hora_7
+{
+    from{-webkit-transform:rotate(0deg); top:-5px;}
+    to{-webkit-transform:rotate(210deg); top:-5px;}
+}
+@-moz-keyframes hora_7
+{
+    from{-webkit-transform:rotate(0deg); top:-5px;}
+    to{-webkit-transform:rotate(210deg); top:-5px;}
+}
+@-ms-keyframes hora_7
+{
+    from{-webkit-transform:rotate(0deg); top:-5px;}
+    to{-webkit-transform:rotate(210deg); top:-5px;}
+}
+/*--*/
+.hora_8 {
+  -webkit-animation-name: hora_8;
+  animation-name: hora_8;
+}
+@-webkit-keyframes hora_8
+{
+    from{-webkit-transform:rotate(0deg); top:-5px;}
+    to{-webkit-transform:rotate(240deg); top:-5px;}
+}
+@-moz-keyframes hora_8
+{
+    from{-webkit-transform:rotate(0deg); top:-5px;}
+    to{-webkit-transform:rotate(240deg); top:-5px;}
+}
+@-ms-keyframes hora_8
+{
+    from{-webkit-transform:rotate(0deg); top:-5px;}
+    to{-webkit-transform:rotate(240deg); top:-5px;}
+}
+/*--*/
+.hora_9 {
+  -webkit-animation-name: hora_9;
+  animation-name: hora_9;
+}
+@-webkit-keyframes hora_9
+{
+    from{-webkit-transform:rotate(0deg); top:-5px;}
+    to{-webkit-transform:rotate(270deg); top:-5px;}
+}
+@-moz-keyframes hora_9
+{
+    from{-webkit-transform:rotate(0deg); top:-5px;}
+    to{-webkit-transform:rotate(270deg); top:-5px;}
+}
+@-ms-keyframes hora_9
+{
+    from{-webkit-transform:rotate(0deg); top:-5px;}
+    to{-webkit-transform:rotate(270deg); top:-5px;}
+}
+/*--*/
+.hora_10 {
+  -webkit-animation-name: hora_10;
+  animation-name: hora_10;
+}
+@-webkit-keyframes hora_10
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(301deg);}
+}
+@-moz-keyframes hora_10
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(301deg);}
+}
+@-ms-keyframes hora_10
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(301deg);}
+}
+/*--*/
+.hora_11 {
+  -webkit-animation-name: hora_11;
+  animation-name: hora_11;
+}
+@-webkit-keyframes hora_11
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(330deg);}
+}
+@-moz-keyframes hora_11
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(330deg);}
+}
+@-ms-keyframes hora_11
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(330deg);}
+}
+/*--*/
+.hora_12 {
+  -webkit-animation-name: hora_12;
+  animation-name: hora_12;
+}
+@-webkit-keyframes hora_12
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(359deg);}
+}
+@-moz-keyframes hora_12
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(359deg);}
+}
+@-ms-keyframes hora_12
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(359deg);}
+}
+/* Ângulos para minutos */
+/*--*/
+.minuto_1 {
+  -webkit-animation-name: minuto_1;
+  animation-name: minuto_1;
+}
+@-webkit-keyframes minuto_1
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(6deg);}
+}
+@-moz-keyframes minuto_1
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(6deg);}
+}
+@-ms-keyframes minuto_1
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(6deg);}
+}
+/*--*/
+.minuto_2 {
+  -webkit-animation-name: minuto_2;
+  animation-name: minuto_2;
+}
+@-webkit-keyframes minuto_2
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(11deg);}
+}
+@-moz-keyframes minuto_2
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(11deg);}
+}
+@-ms-keyframes minuto_2
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(11deg);}
+}
+/*--*/
+.minuto_3 {
+  -webkit-animation-name: minuto_3;
+  animation-name: minuto_3;
+}
+@-webkit-keyframes minuto_3
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(17deg);}
+}
+@-moz-keyframes minuto_3
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(17deg);}
+}
+@-ms-keyframes minuto_3
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(17deg);}
+}
+/*--*/
+.minuto_4 {
+  -webkit-animation-name: minuto_4;
+  animation-name: minuto_4;
+}
+@-webkit-keyframes minuto_4
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(23deg);}
+}
+@-moz-keyframes minuto_4
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(23deg);}
+}
+@-ms-keyframes minuto_4
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(23deg);}
+}
+/*--*/
+.minuto_5 {
+  -webkit-animation-name: minuto_5;
+  animation-name: minuto_5;
+}
+@-webkit-keyframes minuto_5
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(28deg);}
+}
+@-moz-keyframes minuto_5
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(28deg);}
+}
+@-ms-keyframes minuto_5
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(28deg);}
+}
+/*--*/
+.minuto_6 {
+  -webkit-animation-name: minuto_6;
+  animation-name: minuto_6;
+}
+@-webkit-keyframes minuto_6
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(34deg);}
+}
+@-moz-keyframes minuto_6
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(34deg);}
+}
+@-ms-keyframes minuto_6
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(34deg);}
+}
+/*--*/
+.minuto_7 {
+  -webkit-animation-name: minuto_7;
+  animation-name: minuto_7;
+}
+@-webkit-keyframes minuto_7
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(41deg);}
+}
+@-moz-keyframes minuto_7
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(41deg);}
+}
+@-ms-keyframes minuto_7
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(41deg);}
+}
+/*--*/
+.minuto_8 {
+  -webkit-animation-name: minuto_8;
+  animation-name: minuto_8;
+}
+@-webkit-keyframes minuto_8
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(46deg);}
+}
+@-moz-keyframes minuto_8
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(46deg);}
+}
+@-ms-keyframes minuto_8
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(46deg);}
+}
+/*--*/
+.minuto_9 {
+  -webkit-animation-name: minuto_9;
+  animation-name: minuto_9;
+}
+@-webkit-keyframes minuto_9
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(53deg);}
+}
+@-moz-keyframes minuto_9
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(53deg);}
+}
+@-ms-keyframes minuto_9
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(53deg);}
+}
+/*--*/
+.minuto_10 {
+  -webkit-animation-name: minuto_10;
+  animation-name: minuto_10;
+}
+@-webkit-keyframes minuto_10
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(58deg);}
+}
+@-moz-keyframes minuto_10
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(58deg);}
+}
+@-ms-keyframes minuto_10
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(58deg);}
+}
+/*--*/
+.minuto_11 {
+  -webkit-animation-name: minuto_11;
+  animation-name: minuto_11;
+}
+@-webkit-keyframes minuto_11
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(64deg);}
+}
+@-moz-keyframes minuto_11
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(64deg);}
+}
+@-ms-keyframes minuto_11
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(64deg);}
+}
+/*--*/
+.minuto_12 {
+  -webkit-animation-name: minuto_12;
+  animation-name: minuto_12;
+}
+@-webkit-keyframes minuto_12
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(70deg);}
+}
+@-moz-keyframes minuto_12
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(70deg);}
+}
+@-ms-keyframes minuto_12
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(70deg);}
+}
+/*--*/
+.minuto_13 {
+  -webkit-animation-name: minuto_13;
+  animation-name: minuto_13;
+}
+@-webkit-keyframes minuto_13
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(76deg);}
+}
+@-moz-keyframes minuto_13
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(76deg);}
+}
+@-ms-keyframes minuto_13
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(76deg);}
+}
+/*--*/
+.minuto_14 {
+  -webkit-animation-name: minuto_14;
+  animation-name: minuto_14;
+}
+@-webkit-keyframes minuto_14
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(82deg);}
+}
+@-moz-keyframes minuto_14
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(82deg);}
+}
+@-ms-keyframes minuto_14
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(82deg);}
+}
+/*--*/
+.minuto_15 {
+  -webkit-animation-name: minuto_15;
+  animation-name: minuto_15;
+}
+@-webkit-keyframes minuto_15
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(88deg);}
+}
+@-moz-keyframes minuto_15
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(88deg);}
+}
+@-ms-keyframes minuto_15
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(88deg);}
+}
+/*--*/
+.minuto_16 {
+  -webkit-animation-name: minuto_16;
+  animation-name: minuto_16;
+}
+@-webkit-keyframes minuto_16
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(93deg);}
+}
+@-moz-keyframes minuto_16
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(93deg);}
+}
+@-ms-keyframes minuto_16
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(93deg);}
+}
+/*--*/
+.minuto_17 {
+  -webkit-animation-name: minuto_17;
+  animation-name: minuto_17;
+}
+@-webkit-keyframes minuto_17
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(100deg);}
+}
+@-moz-keyframes minuto_17
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(100deg);}
+}
+@-ms-keyframes minuto_17
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(100deg);}
+}
+/*--*/
+.minuto_18 {
+  -webkit-animation-name: minuto_18;
+  animation-name: minuto_18;
+}
+@-webkit-keyframes minuto_18
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(106deg);}
+}
+@-moz-keyframes minuto_18
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(106deg);}
+}
+@-ms-keyframes minuto_18
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(106deg);}
+}
+/*--*/
+.minuto_19 {
+  -webkit-animation-name: minuto_19;
+  animation-name: minuto_19;
+}
+@-webkit-keyframes minuto_19
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(112deg);}
+}
+@-moz-keyframes minuto_19
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(112deg);}
+}
+@-ms-keyframes minuto_19
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(112deg);}
+}
+/*--*/
+.minuto_20 {
+  -webkit-animation-name: minuto_20;
+  animation-name: minuto_20;
+}
+@-webkit-keyframes minuto_20
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(118deg);}
+}
+@-moz-keyframes minuto_20
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(118deg);}
+}
+@-ms-keyframes minuto_20
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(118deg);}
+}
+/*--*/
+.minuto_21 {
+  -webkit-animation-name: minuto_21;
+  animation-name: minuto_21;
+}
+@-webkit-keyframes minuto_21
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(124deg);}
+}
+@-moz-keyframes minuto_21
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(124deg);}
+}
+@-ms-keyframes minuto_21
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(124deg);}
+}
+/*--*/
+.minuto_22 {
+  -webkit-animation-name: minuto_22;
+  animation-name: minuto_22;
+}
+@-webkit-keyframes minuto_22
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(131deg);}
+}
+@-moz-keyframes minuto_22
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(131deg);}
+}
+@-ms-keyframes minuto_22
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(131deg);}
+}
+/*--*/
+.minuto_23 {
+  -webkit-animation-name: minuto_23;
+  animation-name: minuto_23;
+}
+@-webkit-keyframes minuto_23
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(137deg);}
+}
+@-moz-keyframes minuto_23
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(137deg);}
+}
+@-ms-keyframes minuto_23
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(137deg);}
+}
+/*--*/
+.minuto_24 {
+  -webkit-animation-name: minuto_24;
+  animation-name: minuto_24;
+}
+@-webkit-keyframes minuto_24
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(143deg);}
+}
+@-moz-keyframes minuto_24
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(143deg);}
+}
+@-ms-keyframes minuto_24
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(143deg);}
+}
+/*--*/
+.minuto_25 {
+  -webkit-animation-name: minuto_25;
+  animation-name: minuto_25;
+}
+@-webkit-keyframes minuto_25
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(149deg);}
+}
+@-moz-keyframes minuto_25
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(149deg);}
+}
+@-ms-keyframes minuto_25
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(149deg);}
+}
+/*--*/
+.minuto_26 {
+  -webkit-animation-name: minuto_26;
+  animation-name: minuto_26;
+}
+@-webkit-keyframes minuto_26
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(155deg);}
+}
+@-moz-keyframes minuto_26
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(155deg);}
+}
+@-ms-keyframes minuto_26
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(155deg);}
+}
+/*--*/
+.minuto_27 {
+  -webkit-animation-name: minuto_27;
+  animation-name: minuto_27;
+}
+@-webkit-keyframes minuto_27
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(161deg);}
+}
+@-moz-keyframes minuto_27
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(161deg);}
+}
+@-ms-keyframes minuto_27
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(161deg);}
+}
+/*--*/
+.minuto_28 {
+  -webkit-animation-name: minuto_28;
+  animation-name: minuto_28;
+}
+@-webkit-keyframes minuto_28
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(168deg);}
+}
+@-moz-keyframes minuto_28
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(168deg);}
+}
+@-ms-keyframes minuto_28
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(168deg);}
+}
+/*--*/
+.minuto_29 {
+  -webkit-animation-name: minuto_29;
+  animation-name: minuto_29;
+}
+@-webkit-keyframes minuto_29
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(174deg);}
+}
+@-moz-keyframes minuto_29
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(174deg);}
+}
+@-ms-keyframes minuto_29
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(174deg);}
+}
+
+/*--*/
+.minuto_30 {
+  -webkit-animation-name: minuto_30;
+  animation-name: minuto_30;
+}
+@-webkit-keyframes minuto_30
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(180deg);}
+}
+@-moz-keyframes minuto_30
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(180deg);}
+}
+@-ms-keyframes minuto_30
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(180deg);}
+}
+/*--*/
+.minuto_31 {
+  -webkit-animation-name: minuto_31;
+  animation-name: minuto_31;
+}
+@-webkit-keyframes minuto_31
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(186deg);}
+}
+@-moz-keyframes minuto_31
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(186deg);}
+}
+@-ms-keyframes minuto_31
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(186deg);}
+}
+/*--*/
+.minuto_32 {
+  -webkit-animation-name: minuto_32;
+  animation-name: minuto_32;
+}
+@-webkit-keyframes minuto_32
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(192deg);}
+}
+@-moz-keyframes minuto_32
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(192deg);}
+}
+@-ms-keyframes minuto_32
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(192deg);}
+}
+/*--*/
+.minuto_33 {
+  -webkit-animation-name: minuto_33;
+  animation-name: minuto_33;
+}
+@-webkit-keyframes minuto_33
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(199deg);}
+}
+@-moz-keyframes minuto_33
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(199deg);}
+}
+@-ms-keyframes minuto_33
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(199deg);}
+}
+/*--*/
+.minuto_34 {
+  -webkit-animation-name: minuto_34;
+  animation-name: minuto_34;
+}
+@-webkit-keyframes minuto_34
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(205deg);}
+}
+@-moz-keyframes minuto_34
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(205deg);}
+}
+@-ms-keyframes minuto_34
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(205deg);}
+}
+/*--*/
+.minuto_35 {
+  -webkit-animation-name: minuto_35;
+  animation-name: minuto_35;
+}
+@-webkit-keyframes minuto_35
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(211deg);}
+}
+@-moz-keyframes minuto_35
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(211deg);}
+}
+@-ms-keyframes minuto_35
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(211deg);}
+}
+/*--*/
+.minuto_36 {
+  -webkit-animation-name: minuto_36;
+  animation-name: minuto_36;
+}
+@-webkit-keyframes minuto_36
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(217deg);}
+}
+@-moz-keyframes minuto_36
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(217deg);}
+}
+@-ms-keyframes minuto_36
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(217deg);}
+}
+/*--*/
+.minuto_37 {
+  -webkit-animation-name: minuto_37;
+  animation-name: minuto_37;
+}
+@-webkit-keyframes minuto_37
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(224deg);}
+}
+@-moz-keyframes minuto_37
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(224deg);}
+}
+@-ms-keyframes minuto_37
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(224deg);}
+}
+/*--*/
+.minuto_38 {
+  -webkit-animation-name: minuto_38;
+  animation-name: minuto_38;
+}
+@-webkit-keyframes minuto_38
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(230deg);}
+}
+@-moz-keyframes minuto_38
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(230deg);}
+}
+@-ms-keyframes minuto_38
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(230deg);}
+}
+/*--*/
+.minuto_39 {
+  -webkit-animation-name: minuto_39;
+  animation-name: minuto_39;
+}
+@-webkit-keyframes minuto_39
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(236deg);}
+}
+@-moz-keyframes minuto_39
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(236deg);}
+}
+@-ms-keyframes minuto_39
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(236deg);}
+}
+/*--*/
+.minuto_40 {
+  -webkit-animation-name: minuto_40;
+  animation-name: minuto_40;
+}
+@-webkit-keyframes minuto_40
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(242deg);}
+}
+@-moz-keyframes minuto_40
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(242deg);}
+}
+@-ms-keyframes minuto_40
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(242deg);}
+}
+/*--*/
+.minuto_41 {
+  -webkit-animation-name: minuto_41;
+  animation-name: minuto_41;
+}
+@-webkit-keyframes minuto_41
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(248deg);}
+}
+@-moz-keyframes minuto_41
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(248deg);}
+}
+@-ms-keyframes minuto_41
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(248deg);}
+}
+/*--*/
+.minuto_42 {
+  -webkit-animation-name: minuto_42;
+  animation-name: minuto_42;
+}
+@-webkit-keyframes minuto_42
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(253deg);}
+}
+@-moz-keyframes minuto_42
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(253deg);}
+}
+@-ms-keyframes minuto_42
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(253deg);}
+}
+/*--*/
+.minuto_43 {
+  -webkit-animation-name: minuto_43;
+  animation-name: minuto_43;
+}
+@-webkit-keyframes minuto_43
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(260deg);}
+}
+@-moz-keyframes minuto_43
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(260deg);}
+}
+@-ms-keyframes minuto_43
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(260deg);}
+}
+/*--*/
+.minuto_44 {
+  -webkit-animation-name: minuto_44;
+  animation-name: minuto_44;
+}
+@-webkit-keyframes minuto_44
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(267deg);}
+}
+@-moz-keyframes minuto_44
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(267deg);}
+}
+@-ms-keyframes minuto_44
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(267deg);}
+}
+/*--*/
+.minuto_45 {
+  -webkit-animation-name: minuto_45;
+  animation-name: minuto_45;
+}
+@-webkit-keyframes minuto_45
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(271deg);}
+}
+@-moz-keyframes minuto_45
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(271deg);}
+}
+@-ms-keyframes minuto_45
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(271deg);}
+}
+/*--*/
+.minuto_46 {
+  -webkit-animation-name: minuto_46;
+  animation-name: minuto_46;
+}
+@-webkit-keyframes minuto_46
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(278deg);}
+}
+@-moz-keyframes minuto_46
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(278deg);}
+}
+@-ms-keyframes minuto_46
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(278deg);}
+}
+/*--*/
+.minuto_47 {
+  -webkit-animation-name: minuto_47;
+  animation-name: minuto_47;
+}
+@-webkit-keyframes minuto_47
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(284deg);}
+}
+@-moz-keyframes minuto_47
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(284deg);}
+}
+@-ms-keyframes minuto_47
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(284deg);}
+}
+/*--*/
+.minuto_48 {
+  -webkit-animation-name: minuto_48;
+  animation-name: minuto_48;
+}
+@-webkit-keyframes minuto_48
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(290deg);}
+}
+@-moz-keyframes minuto_48
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(290deg);}
+}
+@-ms-keyframes minuto_48
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(290deg);}
+}
+/*--*/
+.minuto_49 {
+  -webkit-animation-name: minuto_49;
+  animation-name: minuto_49;
+}
+@-webkit-keyframes minuto_49
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(296deg);}
+}
+@-moz-keyframes minuto_49
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(296deg);}
+}
+@-ms-keyframes minuto_49
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(296deg);}
+}
+/*--*/
+.minuto_50 {
+  -webkit-animation-name: minuto_50;
+  animation-name: minuto_50;
+}
+@-webkit-keyframes minuto_50
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(302deg);}
+}
+@-moz-keyframes minuto_50
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(302deg);}
+}
+@-ms-keyframes minuto_50
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(302deg);}
+}
+/*--*/
+.minuto_51 {
+  -webkit-animation-name: minuto_51;
+  animation-name: minuto_51;
+}
+@-webkit-keyframes minuto_51
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(306deg);}
+}
+@-moz-keyframes minuto_51
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(306deg);}
+}
+@-ms-keyframes minuto_51
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(306deg);}
+}
+/*--*/
+.minuto_52 {
+  -webkit-animation-name: minuto_52;
+  animation-name: minuto_52;
+}
+@-webkit-keyframes minuto_52
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(313deg);}
+}
+@-moz-keyframes minuto_52
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(313deg);}
+}
+@-ms-keyframes minuto_52
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(313deg);}
+}
+/*--*/
+.minuto_53 {
+  -webkit-animation-name: minuto_53;
+  animation-name: minuto_53;
+}
+@-webkit-keyframes minuto_53
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(319deg);}
+}
+@-moz-keyframes minuto_53
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(319deg);}
+}
+@-ms-keyframes minuto_53
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(319deg);}
+}
+/*--*/
+.minuto_54 {
+  -webkit-animation-name: minuto_54;
+  animation-name: minuto_54;
+}
+@-webkit-keyframes minuto_54
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(325deg);}
+}
+@-moz-keyframes minuto_54
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(325deg);}
+}
+@-ms-keyframes minuto_54
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(325deg);}
+}
+/*--*/
+.minuto_55 {
+  -webkit-animation-name: minuto_55;
+  animation-name: minuto_55;
+}
+@-webkit-keyframes minuto_55
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(330deg);}
+}
+@-moz-keyframes minuto_55
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(330deg);}
+}
+@-ms-keyframes minuto_55
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(330deg);}
+}
+/*--*/
+.minuto_56 {
+  -webkit-animation-name: minuto_56;
+  animation-name: minuto_56;
+}
+@-webkit-keyframes minuto_56
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(336deg);}
+}
+@-moz-keyframes minuto_56
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(336deg);}
+}
+@-ms-keyframes minuto_56
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(336deg);}
+}
+/*--*/
+.minuto_57 {
+  -webkit-animation-name: minuto_57;
+  animation-name: minuto_57;
+}
+@-webkit-keyframes minuto_57
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(342deg);}
+}
+@-moz-keyframes minuto_57
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(342deg);}
+}
+@-ms-keyframes minuto_57
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(342deg);}
+}
+/*--*/
+.minuto_58 {
+  -webkit-animation-name: minuto_58;
+  animation-name: minuto_58;
+}
+@-webkit-keyframes minuto_58
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(348deg);}
+}
+@-moz-keyframes minuto_58
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(348deg);}
+}
+@-ms-keyframes minuto_58
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(348deg);}
+}
+/*--*/
+.minuto_59 {
+  -webkit-animation-name: minuto_59;
+  animation-name: minuto_59;
+}
+@-webkit-keyframes minuto_59
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(354deg);}
+}
+@-moz-keyframes minuto_59
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(354deg);}
+}
+@-ms-keyframes minuto_59
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(354deg);}
+}
+/*--*/
+.minuto_60 {
+  -webkit-animation-name: minuto_60;
+  animation-name: minuto_60;
+}
+@-webkit-keyframes minuto_60
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes minuto_60
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(360deg);}
+}
+@-ms-keyframes minuto_60
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(360deg);}
+}

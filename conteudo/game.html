@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/tempos_animacoes.css">
+	<link rel="stylesheet" href="css/relogio.css">
+</head>
+<body>
+	
+<!-- HTML DO OED AQUI -->
+<div class="OED">
+	<!-- Tela inicial -->	
+	<div id="incial_area">
+		<div id="incial_fundo"></div>
+		<div id="incial_area_texto">
+			<div id="inicial_texto">Você sabe ler as horas em um relógio analógico?<br /><br />Clique em Começar e leia os diferentes horários.</div>
+			<div id="inicial_btn_comecar">Começar</div>
+		</div>
+	</div>
+	<!-- Fim da tela inicial -->
+	<!-- Tela de tutorial -->
+	<div id="tutorial_area">
+		<!-- Grupo de imagens explicativas -->
+		<!-- Explicação #1 -->
+		<div id="tutorial_imagem_explica_fase1" class="tutorial_imagem_explica"></div>
+		<!-- Explicação #2 -->
+		<div id="tutorial_imagem_explica_fase2" class="tutorial_imagem_explica"></div>
+		<div id="tutorial_seta_passo1"></div>
+		<div id="tutorial_bloco_passo1">
+			<div id="tutorial_titulo_1">Tutorial</div>
+			<div id="tutorial_titulo_passo1">1º passo</div>
+			<div id="tutorial_texto_passo1">Observe a posição dos ponteiros do relógio.<br />Lembre-se: o ponteiro pequeno marca as horas e o grande indica os minutos.</div>
+		</div>
+		<!-- Explicação #3 -->
+		<div id="tutorial_imagem_explica_fase3" class="tutorial_imagem_explica"></div>
+		<div id="tutorial_seta_passo2"></div>
+		<div id="tutorial_bloco_passo2">
+			<div id="tutorial_titulo_2">Tutorial</div>
+			<div id="tutorial_titulo_passo2">2º passo</div>
+			<div id="tutorial_texto_passo2">Preencha a lacuna com as horas e os minutos indicados no relógio.</div>
+		</div>		
+		<!-- Explicação #4 -->
+		<div id="tutorial_imagem_explica_fase4" class="tutorial_imagem_explica"></div>
+		<div id="tutorial_seta_passo3"></div>
+		<div id="tutorial_bloco_passo3">
+			<div id="tutorial_titulo_3">Tutorial</div>
+			<div id="tutorial_titulo_passo3">3º passo</div>
+			<div id="tutorial_texto_passo3">Clique no botão Confirmar após escrever a hora e tiver certeza de que está correta.</div>
+		</div>				
+		<!-- Explicação #5 -->
+		<div id="tutorial_imagem_explica_fase5" class="tutorial_imagem_explica"></div>
+		<div id="tutorial_seta_passo4"></div>
+		<div id="tutorial_bloco_passo4">
+			<div id="tutorial_titulo_4">Tutorial</div>
+			<div id="tutorial_titulo_passo4">4º passo</div>
+			<div id="tutorial_texto_passo4">Caso erre, uma luz vermelha se acenderá. Você pode fazer quatro tentativas em cada relógio.</div>
+		</div>			
+		<!-- Fim do grupo de imagens explicativas -->
+		
+		
+		
+		<div id="tutorial_btn_jogar">Jogar</div>
+		<div id="tutorial_btn_avancar"></div>
+		<div id="tutorial_btn_retornar"></div>
+	</div>	
+	<!-- Fim da tela de tutorial -->
+	<!-- Tela da 1ª fase do jogo -->
+	<div id="jogos_titulo_topo"></div>
+	<div id="jogos_btn_tutorial">
+		<div id="jogos_btn_tutorial_rotulo">Ver<br />tutorial</div>
+	</div>
+	
+	<div id="jogo_fase1_area">
+		<div id="jogo_fase1_fundo"></div>
+		<!-- Abaixo os três blocos para cada relógio -->
+		<!-- Fase1 - bloco 1 -->
+		<div id="jogo_fase1_bloco1">
+			<div id="jogo_fase1_bloco1_relogio">
+				<div id="jogo_fase1_bloco1_horas"></div>
+				<div id="jogo_fase1_bloco1_minutos"></div>
+			</div>
+			<div id="jogo_fase1_bloco1_painel">
+				<input name="jogo_fase1_bloco1_input" type="text" id="jogo_fase1_bloco1_input" value="hh:mm" maxlength="4" onkeyup="formatar_hora_lacuna(this.id);" onclick="selecionar_campo_escolhido(this.id);"/>
+				<div id="jogo_fase1_bloco1_erro1"></div>
+				<div id="jogo_fase1_bloco1_erro2"></div>
+				<div id="jogo_fase1_bloco1_erro3"></div>
+				<div id="jogo_fase1_bloco1_erro4"></div>
+			</div>
+			<div id="jogo_fase1_bloco1_btn">Confirmar</div>
+			<div id="jogo_fase1_bloco1_correto">OK</div>
+			<div id="jogo_fase1_bloco1_incorreto">Incorreto</div>
+		</div>
+		<!-- Fase1 - bloco 2 -->	
+		<div id="jogo_fase1_bloco2">
+			<div id="jogo_fase1_bloco2_relogio">
+				<div id="jogo_fase1_bloco2_horas"></div>
+				<div id="jogo_fase1_bloco2_minutos"></div>
+			</div>
+			<div id="jogo_fase1_bloco2_painel">
+				<input name="jogo_fase1_bloco2_input" type="text" id="jogo_fase1_bloco2_input" value="hh:mm" maxlength="4" onkeyup="formatar_hora_lacuna(this.id);" onclick="selecionar_campo_escolhido(this.id);"/>
+				<div id="jogo_fase1_bloco2_erro1"></div>
+				<div id="jogo_fase1_bloco2_erro2"></div>
+				<div id="jogo_fase1_bloco2_erro3"></div>
+				<div id="jogo_fase1_bloco2_erro4"></div>
+			</div>
+			<div id="jogo_fase1_bloco2_btn">Confirmar</div>
+			<div id="jogo_fase1_bloco2_correto">OK</div>
+			<div id="jogo_fase1_bloco2_incorreto">Incorreto</div>
+		</div>	
+		<!-- Fase1 - bloco 3 -->		
+		<div id="jogo_fase1_bloco3">
+			<div id="jogo_fase1_bloco3_relogio">
+				<div id="jogo_fase1_bloco3_horas"></div>
+				<div id="jogo_fase1_bloco3_minutos"></div>
+			</div>
+			<div id="jogo_fase1_bloco3_painel">
+				<input name="jogo_fase1_bloco3_input" type="text" id="jogo_fase1_bloco3_input" value="hh:mm" maxlength="4" onkeyup="formatar_hora_lacuna(this.id);" onclick="selecionar_campo_escolhido(this.id);"/>
+				<div id="jogo_fase1_bloco3_erro1"></div>
+				<div id="jogo_fase1_bloco3_erro2"></div>
+				<div id="jogo_fase1_bloco3_erro3"></div>
+				<div id="jogo_fase1_bloco3_erro4"></div>
+			</div>
+			<div id="jogo_fase1_bloco3_btn">Confirmar</div>
+			<div id="jogo_fase1_bloco3_correto">OK</div>
+			<div id="jogo_fase1_bloco3_incorreto">Incorreto</div>
+		</div>		
+	
+	
+	</div>
+	<!-- Fim da tela da 1ª fase do jogo -->	
+	<div id="jogo_fase2_area">
+		<div id="jogo_fase2_fundo"></div>
+		<!-- Abaixo os três blocos para cada relógio -->
+		<!-- Fase2 - bloco 1 -->
+		<div id="jogo_fase2_bloco1">
+			<div id="jogo_fase2_bloco1_relogio">
+				<div id="jogo_fase2_bloco1_horas"></div>
+				<div id="jogo_fase2_bloco1_minutos"></div>
+			</div>
+			<div id="jogo_fase2_bloco1_painel">
+				<input name="jogo_fase2_bloco1_input" type="text" id="jogo_fase2_bloco1_input" value="hh:mm" maxlength="4" onkeyup="formatar_hora_lacuna(this.id);" onclick="selecionar_campo_escolhido(this.id);"/>
+				<div id="jogo_fase2_bloco1_erro1"></div>
+				<div id="jogo_fase2_bloco1_erro2"></div>
+				<div id="jogo_fase2_bloco1_erro3"></div>
+				<div id="jogo_fase2_bloco1_erro4"></div>
+			</div>
+			<div id="jogo_fase2_bloco1_btn">Confirmar</div>
+			<div id="jogo_fase2_bloco1_correto">OK</div>
+			<div id="jogo_fase2_bloco1_incorreto">Incorreto</div>
+		</div>
+		<!-- Fase2 - bloco 2 -->	
+		<div id="jogo_fase2_bloco2">
+			<div id="jogo_fase2_bloco2_relogio">
+				<div id="jogo_fase2_bloco2_horas"></div>
+				<div id="jogo_fase2_bloco2_minutos"></div>
+			</div>
+			<div id="jogo_fase2_bloco2_painel">
+				<input name="jogo_fase2_bloco2_input" type="text" id="jogo_fase2_bloco2_input" value="hh:mm" maxlength="4" onkeyup="formatar_hora_lacuna(this.id);" onclick="selecionar_campo_escolhido(this.id);"/>
+				<div id="jogo_fase2_bloco2_erro1"></div>
+				<div id="jogo_fase2_bloco2_erro2"></div>
+				<div id="jogo_fase2_bloco2_erro3"></div>
+				<div id="jogo_fase2_bloco2_erro4"></div>
+			</div>
+			<div id="jogo_fase2_bloco2_btn">Confirmar</div>
+			<div id="jogo_fase2_bloco2_correto">OK</div>
+			<div id="jogo_fase2_bloco2_incorreto">Incorreto</div>
+		</div>	
+		<!-- Fase2 - bloco 3 -->		
+		<div id="jogo_fase2_bloco3">
+			<div id="jogo_fase2_bloco3_relogio">
+				<div id="jogo_fase2_bloco3_horas"></div>
+				<div id="jogo_fase2_bloco3_minutos"></div>
+			</div>
+			<div id="jogo_fase2_bloco3_painel">
+				<input name="jogo_fase2_bloco3_input" type="text" id="jogo_fase2_bloco3_input" value="hh:mm" maxlength="4" onkeyup="formatar_hora_lacuna(this.id);" onclick="selecionar_campo_escolhido(this.id);"/>
+				<div id="jogo_fase2_bloco3_erro1"></div>
+				<div id="jogo_fase2_bloco3_erro2"></div>
+				<div id="jogo_fase2_bloco3_erro3"></div>
+				<div id="jogo_fase2_bloco3_erro4"></div>
+			</div>
+			<div id="jogo_fase2_bloco3_btn">Confirmar</div>
+			<div id="jogo_fase2_bloco3_correto">OK</div>
+			<div id="jogo_fase2_bloco3_incorreto">Incorreto</div>
+		</div>		
+
+	</div>
+	<!-- Fim da tela da 2ª fase do jogo -->
+	<div id="jogo_fase3_area">
+		<div id="jogo_fase3_fundo"></div>
+		<!-- Abaixo os três blocos para cada relógio -->
+		<!-- Fase3 - bloco 1 -->
+		<div id="jogo_fase3_bloco1">
+			<div id="jogo_fase3_bloco1_relogio">
+				<div id="jogo_fase3_bloco1_horas"></div>
+				<div id="jogo_fase3_bloco1_minutos"></div>
+			</div>
+			<div id="jogo_fase3_bloco1_painel">
+				<input name="jogo_fase3_bloco1_input" type="text" id="jogo_fase3_bloco1_input" value="hh:mm" maxlength="4" onkeyup="formatar_hora_lacuna(this.id);" onclick="selecionar_campo_escolhido(this.id);"/>
+				<div id="jogo_fase3_bloco1_erro1"></div>
+				<div id="jogo_fase3_bloco1_erro2"></div>
+				<div id="jogo_fase3_bloco1_erro3"></div>
+				<div id="jogo_fase3_bloco1_erro4"></div>
+			</div>
+			<div id="jogo_fase3_bloco1_btn">Confirmar</div>
+			<div id="jogo_fase3_bloco1_correto">OK</div>
+			<div id="jogo_fase3_bloco1_incorreto">Incorreto</div>
+		</div>
+		<!-- Fase2 - bloco 2 -->	
+		<div id="jogo_fase3_bloco2">
+			<div id="jogo_fase3_bloco2_relogio">
+				<div id="jogo_fase3_bloco2_horas"></div>
+				<div id="jogo_fase3_bloco2_minutos"></div>
+			</div>
+			<div id="jogo_fase3_bloco2_painel">
+				<input name="jogo_fase3_bloco2_input" type="text" id="jogo_fase3_bloco2_input" value="hh:mm" maxlength="4" onkeyup="formatar_hora_lacuna(this.id);" onclick="selecionar_campo_escolhido(this.id);"/>
+				<div id="jogo_fase3_bloco2_erro1"></div>
+				<div id="jogo_fase3_bloco2_erro2"></div>
+				<div id="jogo_fase3_bloco2_erro3"></div>
+				<div id="jogo_fase3_bloco2_erro4"></div>
+			</div>
+			<div id="jogo_fase3_bloco2_btn">Confirmar</div>
+			<div id="jogo_fase3_bloco2_correto">OK</div>
+			<div id="jogo_fase3_bloco2_incorreto">Incorreto</div>
+		</div>	
+		<!-- Fase3 - bloco 3 -->		
+		<div id="jogo_fase3_bloco3">
+			<div id="jogo_fase3_bloco3_relogio">
+				<div id="jogo_fase3_bloco3_horas"></div>
+				<div id="jogo_fase3_bloco3_minutos"></div>
+			</div>
+			<div id="jogo_fase3_bloco3_painel">
+				<input name="jogo_fase3_bloco3_input" type="text" id="jogo_fase3_bloco3_input" value="hh:mm" maxlength="4" onkeyup="formatar_hora_lacuna(this.id);" onclick="selecionar_campo_escolhido(this.id);"/>
+				<div id="jogo_fase3_bloco3_erro1"></div>
+				<div id="jogo_fase3_bloco3_erro2"></div>
+				<div id="jogo_fase3_bloco3_erro3"></div>
+				<div id="jogo_fase3_bloco3_erro4"></div>
+			</div>
+			<div id="jogo_fase3_bloco3_btn">Confirmar</div>
+			<div id="jogo_fase3_bloco3_correto">OK</div>
+			<div id="jogo_fase3_bloco3_incorreto">Incorreto</div>
+		</div>		
+	</div>
+	<!-- Fim da tela da 3ª fase do jogo -->	
+	<!-- Tela de devolutivas -->
+	<div id="devolutiva_area">
+		<div id="devolutiva_fundo"></div>
+		<div id="devolutiva_area_com_botao"></div>
+		<div id="devolutiva_area_sem_botao">
+			<div id="devolutiva_area_texto_sem_botao">
+				<span id="txt_final_ok"><span class="devolutiva_texto_60">Muito bem!</span><br />Você leu corretamente o horário de todos os relógios.<br />Parabéns!</span>
+			</div>
+		</div>
+		<div id="devolutiva_area_texto_erro"><span class="devolutiva_texto_60">Que pena!</span><br />Acabaram suas tentativas...<br />Recomece da primeira fase e tente mais uma vez.</div>
+		<div id="devolutiva_area_texto_acerto"><span class="devolutiva_texto_60">Muito bem!</span><br />Você leu corretamente o horário de todos os relógios.<br />Clique na seta para ir à próxima fase.</div>		
+		
+		<div id="devolutiva_btn_continuar1">Continuar</div>
+		<div id="devolutiva_btn_continuar2">Continuar</div>
+		<div id="devolutiva_btn_recomecar">Recomeçar</div>
+
+	</div>
+	<!-- Fim Tela de devolutivas -- >
+</div>
+<!-- HTML DO OED AQUI -->
+
+
+	<!-- CARREGAMENTO DE SCRIPTS -->
+	<script>
+		function iniciar_oed_frame(){
+			//alert("iniciar_oed_frame");
+			iniciar_com_tap();
+		}	
+	</script>	
+	<script type="text/javascript" src="../js/carrega_oed.js"></script>
+	<script type="text/javascript" src="js/funcoes.js"></script>	
+</body>	
+</html>
